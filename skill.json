@@ -148,10 +148,6 @@
         "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/windows11/windows11-original-wordmark.svg"
     },
     {
-        "name":"",
-        "ico" : ""
-    },
-    {
         "name": "django",
         "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain-wordmark.svg"
     },
