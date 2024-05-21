@@ -8,6 +8,14 @@
         "ico":"https://img.icons8.com/color/70/nodejs"
     },
     {
+        "name":"C",
+        "ico" :"https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+    },
+    {
+        "name": "Canva",
+        "ico": "https://raw.githubusercontent.com/devicons/devicon/master/icons/canva/canva-original.svg"
+    },
+    {
         "name":"HTML5",
         "ico":"https://img.icons8.com/color/70/000000/html-5--v1.png"
     },
@@ -25,15 +33,19 @@
     },
     {
         "name": "Firebase",
-        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+        "ico": "https://img.icons8.com/color/48/000000/firebase.png"
     },
     {
         "name": "Android",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
+        "ico": "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg"
     },
     {
         "name":"bash",
-        "ico":"https://img.icons8.com/color/70/bash"
+        "ico":"https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg"
+    },
+    {
+        "name":"Apachi",
+        "ico": "https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original-wordmark.svg"
     },
     {
         "name":"Dart",
@@ -53,27 +65,27 @@
     },
     {
         "name": "AWS",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+        "ico": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
     },
     {
         "name": "Heroku",
-        "icon": "https://img.icons8.com/color/48/000000/heroku.png"
+        "ico": "https://img.icons8.com/color/48/000000/heroku.png"
     },
     {
         "name": "Netlify",
-        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+        "ico": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
     },
     {
         "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+        "ico": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     },
     {
         "name": "WordPress",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+        "ico": "https://img.icons8.com/color/48/000000/wordpress.png"
     },
     {
         "name": "Git",
-        "icon": "https://img.icons8.com/color/70/git"
+        "ico": "https://img.icons8.com/color/70/git"
     }    
 
 ]
