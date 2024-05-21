@@ -16,6 +16,10 @@
         "ico":"https://img.icons8.com/color/70/css3"
     },
     {
+      "name":"Java",
+       "ico": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg"
+    },
+    {
         "name":"javaScript",
         "ico":"https://img.icons8.com/color/70/javascript"
     },
