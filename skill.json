@@ -105,7 +105,23 @@
     },
     {
         "name" : "FireFox",
-        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/firefox/firefox-original-wordmark.svg"
+        "ico" : "https://img.icons8.com/color/70/000000/firefox"
+    },
+    {
+        "name" : "Kali Linux",
+        "ico" : "https://img.icons8.com/?size=100&id=101665&format=png&color=000000"
+    },
+    {
+        "name": "Parrot Security",
+        "ico" : "https://img.icons8.com/?size=100&id=sA3Bx9WPvcNg&format=png&color=000000"
+    },
+    {
+        "name": "Red Hat",
+        "ico" : "https://img.icons8.com/?size=100&id=17847&format=png&color=000000"
+    },
+    {
+        "name": "Tor",
+        "ico" : "https://img.icons8.com/?size=100&id=LSOtRiURcRCx&format=png&color=000000"
     },
     {
         "name": "Heroku",
