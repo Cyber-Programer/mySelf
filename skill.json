@@ -12,10 +12,6 @@
         "ico" :"https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
     },
     {
-        "name": "Canva",
-        "ico": "https://raw.githubusercontent.com/devicons/devicon/master/icons/canva/canva-original.svg"
-    },
-    {
         "name":"HTML5",
         "ico":"https://img.icons8.com/color/70/000000/html-5--v1.png"
     },
@@ -64,8 +60,52 @@
         "ico":"https://img.icons8.com/color/70/mysql"
     },
     {
+        "name": "fastapi",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original-wordmark.svg"
+    },
+    {
+        "name" : "Figma",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg"
+    },
+    {
+        "name":"flutter",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg"
+    },
+    {
+        "name":"ghost",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/ghost/ghost-original-wordmark.svg"
+    },
+    {
+        "name":"github code spaces",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/githubcodespaces/githubcodespaces-original.svg"
+    },
+    {
+        "name":"gitlab",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/gitlab/gitlab-original-wordmark.svg"
+    },
+    {
+        "name":"go",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg"
+    },
+    {
+        "name":"goland",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/goland/goland-original.svg"
+    },
+    {
+        "name":"google",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original-wordmark.svg"
+    },
+    {
+        "name" :"Flask",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg"
+    },
+    {
         "name": "AWS",
         "ico": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name" : "FireFox",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/firefox/firefox-original-wordmark.svg"
     },
     {
         "name": "Heroku",
@@ -86,6 +126,46 @@
     {
         "name": "Git",
         "ico": "https://img.icons8.com/color/70/git"
-    }    
+    },
+    {
+        "name":"linux",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+    },
+    {
+        "name":"pycharm",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/pycharm/pycharm-original.svg"
+    },
+    {
+        "name":"ubuntu",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-original-wordmark.svg"
+    },
+    {
+        "name":"vscode",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg"
+    },
+    {
+        "name":"windows11",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/windows11/windows11-original-wordmark.svg"
+    },
+    {
+        "name":"",
+        "ico" : ""
+    },
+    {
+        "name": "django",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain-wordmark.svg"
+    },
+    {
+        "name":"docker",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+    },
+    {
+        "name": "Debian",
+        "ico" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/debian/debian-original-wordmark.svg"
+    },
+    {
+        "name": "Canva",
+        "ico": "https://raw.githubusercontent.com/devicons/devicon/master/icons/canva/canva-original.svg"
+    }
 
 ]
