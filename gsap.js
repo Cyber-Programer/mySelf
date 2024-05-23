@@ -7,6 +7,259 @@ const images = document.querySelectorAll('#pic');
 gsap.registerPlugin(ScrollTrigger);
 
 
+document.addEventListener('DOMContentLoaded',()=>{
+    
+    gsap.to(images, {
+        y: 15, // Adjust the distance of movement
+        duration: 1, // Adjust the duration of each movement
+        ease: "power1.inOut", // Adjust the easing function
+        yoyo: true, // Reverses the animation after it finishes
+        repeat: -1 // Repeats the animation infinitely
+    });
+    
+
+    gsap.from(".half1 > h3",
+        {   
+            x:300,
+            duration:1,
+            
+        }
+    )
+
+    gsap.from(".half1 > h1",{
+        x:-1000,
+        delay:0.5,
+        duration:0.6
+    })
+
+    gsap.from(".half1 > p",{
+        x:-1000,
+        delay:0.8,
+        duration:0.8
+    })
+
+    // Scrool triger starting
+
+    gsap.from('.section2 .right h3', {
+        x: 150, 
+        duration:2,
+        scrollTrigger: {
+          trigger: '.section2 .right h3',
+          start: 'center 80%',
+          end: 'center 30%',
+          scrub: true,
+          onLeave : () => ckposition(),
+        //   markers:true
+        }
+      });
+    
+    gsap.from('.section2 .right h1',{
+        opacity:0,
+        duration:1.5,
+        scrollTrigger: {
+            trigger: '.section2 .right h1',
+            start: 'center 80%',
+            end: 'center 30%',
+            scrub: true,
+            // markers:true
+        }
+    })
+    
+    gsap.from('.section2 .right p',{
+        color:'#bdc3c7',
+        duration:1,
+        scrollTrigger: {
+            trigger: '.section2 .right p',
+            start: 'center 80%',
+            end: 'center 30%',
+            scrub : true,
+            // markers: true
+        }
+    
+    })
+
+    
+    if(window.innerWidth > 768){
+
+        gsap.from('.section3 h3', {
+            x: 500,
+            duration: 0.7,
+            scrollTrigger: {
+                trigger: '.section3',
+                start: 'top center', // Adjust start and end points as needed
+                end: 'bottom center',
+                scrub: true,
+                // markers: true
+            }
+        });
+        
+        gsap.from('.section3 h1', {
+            opacity: 0,
+            x: -300,
+            duration: 1,
+            scrollTrigger: {
+                trigger: '.section3',
+                start: 'top center',
+                end: 'bottom center',
+                scrub: true,
+                // markers: true
+            }
+        });
+    
+        gsap.from('#sec4titel',{
+            x:150,
+            duration:0.5,
+            scrollTrigger:{
+                trigger: '.section4',
+                start: 'bottom 100%',
+                end : 'bottom 10%',
+                scrub:true,
+                // markers:true
+            }
+        })
+    
+        gsap.from('#o1',{
+            opacity:0,
+            duration:1,
+            scrollTrigger:{
+                trigger: '.section4',
+                start: 'bottom 40%',
+                scrub: true,
+                // markers: true
+            }
+        })
+    
+    
+        gsap.from('#o2',{
+            opacity:0,
+            duration:1,
+            scrollTrigger:{
+                trigger: '.section5',
+                start: 'bottom 90%',
+                scrub: true,
+                // markers: true
+            }
+        })
+    
+        gsap.from('#o3',{
+            opacity:0,
+            duration:1,
+            scrollTrigger:{
+                trigger: '.section5',
+                start: 'bottom 40%',
+                scrub: true,
+                // markers: true
+            }
+        })
+        
+
+    }
+    else{
+
+
+        gsap.from('.section3 h3',{
+            opacity:0,
+            x:150,
+            duration:0.5,
+            scrollTrigger:{
+                trigger:'.section3 h3',
+                scrub:true,
+                // markers:true,
+                start:'top 45%',
+                end: 'top 15%'
+            }
+        })
+
+        gsap.from('.section3 h1',{
+            opacity:0,
+            x:-150,
+            duration:0.5,
+            scrollTrigger:{
+                trigger:'.section3 h1',
+                // markers:true,
+                start:'top 50%',
+                end:'top 20%',
+                scrub:true
+            }
+        })
+
+        gsap.from('.section3 .box',{
+            opacity:0,
+            duration:1,
+            scrollTrigger:{
+                trigger:'.section3 .box',
+                // markers:true,
+                start:'top 40%',
+                end:'top 23%',
+                scrub:true
+            }
+        })
+
+        gsap.from('#sec4titel',{
+            y:150,
+            opacity:0,
+            duration:1,
+            scrollTrigger:{
+                trigger:'#sec4titel',
+                // markers:true,
+                start:'top 50%',
+                end:'top 40%',
+                scrub:true
+            }
+        })
+
+        gsap.from('.section4 > #o1',{
+            opacity:0,
+            duration:1,
+            scrollTrigger:{
+                trigger:'.section4 > #o1',
+                scrub:true,
+                start: 'top 30%',
+                end: 'top 20%',
+                // markers:true
+            }
+        })
+
+        gsap.from('.section4 > #o2',{
+            opacity:0,
+            duration:1,
+            scrollTrigger:{
+                trigger:'.section4 > #o2',
+                scrub:true,
+                start: 'top 40%',
+                end: 'top 30%',
+                // markers:true
+            }
+        })
+
+
+        gsap.from('.section4 > #o3',{
+            opacity:0,
+            duration:1,
+            scrollTrigger:{
+                trigger:'.section4 > #o3',
+                scrub:true,
+                start: 'top 40%',
+                end: 'top 30%',
+                // markers:true
+            }
+        })
+
+
+
+        
+
+    }
+
+
+    
+
+
+
+})
+
+
+
 images.forEach(image => {
     image.addEventListener('mousemove', (event) => {
         const rect = image.getBoundingClientRect();
@@ -83,108 +336,7 @@ function ckposition() {
     }
 }
 
-document.addEventListener('DOMContentLoaded',()=>{
-
-    gsap.to(images, {
-        y: 15, // Adjust the distance of movement
-        duration: 1, // Adjust the duration of each movement
-        ease: "power1.inOut", // Adjust the easing function
-        yoyo: true, // Reverses the animation after it finishes
-        repeat: -1 // Repeats the animation infinitely
-    });
-    
-
-    gsap.from(".half1 > h3",
-        {   
-            x:300,
-            duration:1,
-            
-        }
-    )
-
-    gsap.from(".half1 > h1",{
-        x:-1000,
-        delay:0.5,
-        duration:0.6
-    })
-
-    gsap.from(".half1 > p",{
-        x:-1000,
-        delay:0.8,
-        duration:0.8
-    })
-
-    // Scrool triger starting
-
-    gsap.from('.right h3', {
-        x: 100, 
-        duration:2,
-        scrollTrigger: {
-          trigger: '.right h3',
-          start: 'center 90%',
-          end: 'center 50%',
-          scrub: true,
-          onLeave : () => ckposition()
-        //   markers:true
-        }
-      });
-    
-    gsap.from('.right h1',{
-        opacity:0,
-        duration:1.5,
-        scrollTrigger: {
-            trigger: '.right h1',
-            start: 'center 700px',
-            end : 'center 50px',
-            scrub: true,
-            // markers:true
-        }
-    })
-    
-    gsap.from('.right p',{
-        color:'#bdc3c7',
-        duration:1,
-        scrollTrigger: {
-            trigger: '.right p',
-            start : 'center 60%',
-            end : 'center 50%',
-            scrub : true,
-            // markers: true
-        }
-    
-    })
-
-    
-    gsap.from('.section3 h3',{
-        x:500,
-        duration:0.7,
-        scrollTrigger:{
-            trigger: '.section3 h3',
-            start : 'center 60%',
-            end: 'center 30%',
-            scrub : true,
-            // markers: true
-        }
-    })
-
-    gsap.from('.section3 h1',{
-        opacity: 0,
-        x:-300,
-        duration: 1,
-
-        scrollTrigger: {
-            trigger:'.section3 h1',
-            start : 'center 80%',
-            end: 'center 20%',
-            scrub: true,
-            // markers:true
-        }
-    })
-
-    
 
 
-
-})
 
 
