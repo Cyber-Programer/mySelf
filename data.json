@@ -1,5 +1,14 @@
 {
   "description": "🔒 Hack the planet. Secure the future🔒 🚀Hacking is not about breaking into systems, but about breaking through barriers of knowledge.🚀",
   "aboutDescription": "My Self : <b>Md SiFaT IsLaM</b> <br> <br> I am a Bangladeshi programmer. I deeply interested in exploring new technologies and expanding my knowledge horizons. I found joy in learning and traveling. Mainly I love computer programming.",
-  "language": ["python", "html", "css", "js", "php", "java", "dart"]
+  "language": {
+    "lan1":"python",
+    "lan2":"Html",
+    "lan3":"css",
+    "lan4":"javaScrit",
+    "lan5":"java",
+    "lan6":"dart",
+    "lan7":"php",
+    "lan8":"bash/bat"
+  }
 }
